@@ -5,4 +5,7 @@ helloworld:
       - go build -o app main.go 
     deploy: [ app ] 
   run: 
+    userData:
+      key: value
+      key2: value2
     start: ./app 
