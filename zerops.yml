@@ -6,6 +6,5 @@ helloworld:
     deploy: [ app ] 
   run: 
     userData:
-      key: value
       key2: value2
     start: ./app 
