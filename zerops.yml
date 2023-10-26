@@ -8,4 +8,4 @@ helloworld:
     start: ./app 
   envVars:
     key: value
-    key2: value222
+    key2: value2
