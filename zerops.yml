@@ -9,4 +9,3 @@ helloworld:
   envVars:
     key2: value
     key22: value22
-    key: value
