@@ -5,6 +5,6 @@ helloworld:
       - go build -o app main.go 
     deploy: [ app ] 
   run: 
-    userData:
-      key2: value
     start: ./app 
+  envVars:
+    key2: value
