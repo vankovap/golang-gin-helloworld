@@ -8,5 +8,4 @@ helloworld:
     start: ./app 
   envVars:
     key2: value
-    key: value2
     key22: value22
