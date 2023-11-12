@@ -7,5 +7,6 @@ helloworld:
   run: 
     start: ./app 
   envVars:
-    key: value111
+    key: value11
     key22: value22
+    key1: value1
