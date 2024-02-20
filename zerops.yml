@@ -6,7 +6,7 @@ helloworld:
     deploy: [ app ] 
   run: 
     start: ./app 
-  envVars:
+  envVariables:
     key: value11
     key22: value2
     key1: value1
