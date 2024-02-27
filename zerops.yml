@@ -1,13 +1,14 @@
-helloworld: 
-  build: 
-    base: [ go@1 ] 
+zerops:
+  - setup: helloworld 
     build: 
-      - go build -o app main.go 
-    deploy: [ app ] 
-  run: 
-    start: ./app 
-  envVariables:
-    key: value11
-    key22: value2
-    key1: value1
-    key3: value
+      base: go@1
+      build: 
+        - go build -o app main.go 
+      deploy: app 
+    run: 
+      start: ./app 
+    envVariables:
+      key: value11
+      key22: value2
+      key1: value1
+      key3: value
