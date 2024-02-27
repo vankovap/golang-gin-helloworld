@@ -2,7 +2,7 @@ zerops:
   - setup: helloworld 
     build: 
       base: go@1
-      build: 
+      buildCommands: 
         - go build -o app main.go 
       deploy: app 
     run: 
