@@ -9,6 +9,5 @@ zerops:
       start: ./app 
     envVariables:
       key: value11
-      key22: value2
+      key22: value22
       key1: value1
-      key3: value
