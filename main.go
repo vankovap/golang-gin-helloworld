@@ -5,10 +5,14 @@ import (
         "log"
         "net/http"
         "github.com/gin-gonic/gin"
+        "golang.org/x/exp/slog"
 )
 
 func main() {
         fmt.Println("Running http server")
+        slog.Info("info")
+        slog.Warn("warn")
+        slog.Debug("debug")
 
         router := gin.Default()
         router.GET("/hello-world", getHelloWorld)
