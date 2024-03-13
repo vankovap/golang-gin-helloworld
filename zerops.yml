@@ -3,6 +3,7 @@ zerops:
     build: 
       base: go@1
       buildCommands: 
+        - go get golang.org/x/exp/slog
         - go build -o app main.go 
       deploy: app 
     run: 
