@@ -9,8 +9,6 @@ import (
 
 func main() {
         fmt.Println("Running http server")
-        log.Info("info logging")
-        log.Debug("debug logging")
 
         router := gin.Default()
         router.GET("/hello-world", getHelloWorld)
