@@ -8,6 +8,9 @@ zerops:
       deploy: app 
     run: 
       start: ./app 
+      ports:
+        - port: 8080
+        httpSupport: true
     envVariables:
       key: value11
       key22: value22
