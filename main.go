@@ -6,7 +6,6 @@ import (
         "net/http"
         "os"
         "github.com/gin-gonic/gin"
-        "golang.org/x/exp/slog"
 )
 
 func main() {
