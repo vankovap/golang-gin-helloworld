@@ -16,7 +16,7 @@ func main() {
 
         router := gin.Default()
         router.GET("/hello-world", getHelloWorld)
-        log.Fatal(router.Run(":8080"))
+        log.Fatal(router.Run(os.Getenv("APP_PORT")))
 }
 
 func getHelloWorld(c *gin.Context) {
