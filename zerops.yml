@@ -11,7 +11,5 @@ zerops:
       ports:
         - port: 8080
           httpSupport: true
-    envVariables:
-      key: value11
-      key22: value22
-      key1: value1
+      envVariables:
+        APP_PORT: 8080
