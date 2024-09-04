@@ -9,6 +9,8 @@ zerops:
       envVariables:
         key1: value1
         key2: value2
+      prepareCommands:
+        - echo "prepareCommands"
     run: 
       start: ./app 
       ports:
