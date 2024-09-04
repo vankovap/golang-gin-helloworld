@@ -9,13 +9,13 @@ zerops:
       envVariables:
         key1: value1
         key2: value2
-      prepareCommands:
-        - echo "prepareCommands"
     run: 
       start: ./app 
       ports:
         - port: 8080
           httpSupport: true
+      prepareCommands:
+        - echo "prepareCommands"
       envVariables:
         APP_PORT: 8080
         key: value3
