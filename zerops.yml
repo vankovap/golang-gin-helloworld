@@ -8,7 +8,7 @@ zerops:
       deploy: app 
       envVariables:
         key1: value1
-        key2: value2
+        key2: value22
     run: 
       start: ./app 
       ports:
@@ -17,5 +17,4 @@ zerops:
       prepareCommands:
         - echo "prepareCommands"
       envVariables:
-        APP_PORT: 8080
         key: value3
