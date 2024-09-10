@@ -8,7 +8,7 @@ zerops:
       deploy: app 
       envVariables:
         key1: thischanged
-        key2: value22
+        key2: thischangedtoo
     run: 
       start: ./app 
       ports:
@@ -16,3 +16,4 @@ zerops:
           httpSupport: true
       envVariables:
         APP_PORT: 8080
+        this: that
