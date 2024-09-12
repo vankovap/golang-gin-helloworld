@@ -7,7 +7,7 @@ zerops:
         - go build -o app main.go 
       deploy: app 
       envVariables:
-        key1: thischangedagain
+        key1: thischanged
         key2: thischangedtoo
     run: 
       start: ./app 
