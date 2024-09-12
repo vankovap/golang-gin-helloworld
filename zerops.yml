@@ -16,4 +16,4 @@ zerops:
           httpSupport: true
       envVariables:
         APP_PORT: 8081
-        this: that
+        this: thatnotanymore
