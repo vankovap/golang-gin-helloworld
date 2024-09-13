@@ -9,6 +9,7 @@ zerops:
       envVariables:
         key1: thischanged
         key2: this
+        key3: value
     run: 
       start: ./app 
       ports:
