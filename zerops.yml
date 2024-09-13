@@ -14,3 +14,5 @@ zerops:
       ports:
         - port: 8080
           httpSupport: true
+      envVariables:
+        this: that
