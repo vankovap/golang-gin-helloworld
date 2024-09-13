@@ -8,7 +8,7 @@ zerops:
       deploy: app 
       envVariables:
         key1: thischanged
-        key2: this
+        key2: thisq
     run: 
       start: ./app 
       ports:
