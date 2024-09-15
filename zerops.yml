@@ -15,3 +15,4 @@ zerops:
         key1: thischanged
         key2: this
         key3: value
+        APP_PORT: 8080
