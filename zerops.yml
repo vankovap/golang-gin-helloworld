@@ -13,5 +13,5 @@ zerops:
           httpSupport: true
       envVariables:
         key1: thischanged
-        key2: thist
+        key2: this
         key3: value
