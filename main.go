@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-        port := os.Getenv("APP_PORT")
+        port := os.Getenv("PROJECT_APP_PORT")
         fmt.Printf("Running http server on port :%s", port)
         fmt.Println()
 
