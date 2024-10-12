@@ -11,6 +11,8 @@ zerops:
       ports:
         - port: 8080
           httpSupport: true
+        - port: 8081
+          httpSupport: true
       envVariables:
         key1: thischanged
         key2: this
