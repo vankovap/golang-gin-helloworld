@@ -11,7 +11,7 @@ import (
 func main() {
         fmt.Println(os.Environ())
         port := os.Getenv("core_PROJECT_APP_PORT")
-        fmt.Printf("Running http server on port :%s", port)
+        fmt.Printf("<6>Running http server on port :%s", port)
         fmt.Println()
 
         router := gin.Default()
